@@ -87,16 +87,6 @@ GAIA-OPENAI-VALIDATION/
 
 ## Prerequisites
 
-Before running the application, ensure that Python is installed:
-
-1. **Python 3.8+**: [Download Python](https://www.python.org/downloads/)
-
----
-
----
-
-## Prerequisites
-
 Before running the application, ensure the following:
 
 1. **Python 3.8+**: [Download Python](https://www.python.org/downloads/)
