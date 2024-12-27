@@ -83,10 +83,52 @@ GAIA-OPENAI-VALIDATION/
 
 ```
 
-## Attestation
+---
 
-WE ATTEST THAT WE HAVEN’T USED ANY OTHER STUDENTS’ WORK IN OUR
-ASSIGNMENT AND ABIDE BY THE POLICIES LISTED IN THE STUDENT HANDBOOK.
+## Prerequisites
+
+Before running the application, ensure the following are installed:
+
+1. **Python 3.8+**: [Download Python](https://www.python.org/downloads/)
+2. Required Python libraries: Install using the `requirements.txt` file:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. **Streamlit**: Make sure Streamlit is properly set up:
+   ```bash
+   pip install streamlit
+   ```
+
+---
+
+## How to Run
+
+1. **Clone this repository**:
+
+   ```bash
+   git clone https://github.com/your-username/GAIA-OPENAI-VALIDATION.git
+   cd GAIA-OPENAI-VALIDATION
+   ```
+
+2. **Set up the environment**:
+
+   - Create a `.env` file in the root directory using the `.env.example` template.
+   - Add your OpenAI API key and other necessary credentials to the `.env` file.
+
+3. **Install dependencies**:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Run the application**:
+   - Launch the Streamlit app by running:
+     ```bash
+     streamlit run Home.py
+     ```
+   - Open the URL displayed in the terminal (default: `http://localhost:8501`).
+
+---
 
 ## Contact
 
