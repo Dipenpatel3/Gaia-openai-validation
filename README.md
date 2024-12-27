@@ -87,46 +87,67 @@ GAIA-OPENAI-VALIDATION/
 
 ## Prerequisites
 
-Before running the application, ensure the following are installed:
+Before running the application, ensure that Python is installed:
 
 1. **Python 3.8+**: [Download Python](https://www.python.org/downloads/)
-2. Required Python libraries: Install using the `requirements.txt` file:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. **Streamlit**: Make sure Streamlit is properly set up:
-   ```bash
-   pip install streamlit
-   ```
 
 ---
 
-## How to Run
+---
 
-1. **Clone this repository**:
+## Prerequisites
+
+Before running the application, ensure the following:
+
+1. **Python 3.8+**: [Download Python](https://www.python.org/downloads/)
+2. **Conda** (optional, for managing environments): [Install Miniconda/Anaconda](https://docs.conda.io/en/latest/miniconda.html)
+
+---
+
+## Setting Up the Environment
+
+Follow these steps to set up and run the application:
+
+### Step 1: Clone the Repository
+
+```bash
+git clone https://github.com/Dipenpatel3/Gaia-openai-validation.git
+cd Gaia-openai-validation
+```
+
+### Step 2: Create a Conda Environment (Optional)
+
+1. Create a `conda` environment:
 
    ```bash
-    git clone https://github.com/Dipenpatel3/Gaia-openai-validation.git
-    cd Gaia-openai-validation
+   conda create -n gaia_env python=3.8 -y
    ```
 
-2. **Set up the environment**:
+2. Activate the environment:
 
-   - Create a `.env` file in the root directory using the `.env.example` template.
-   - Add your OpenAI API key and other necessary credentials to the `.env` file.
+   ```bash
+   conda activate gaia_env
+   ```
 
-3. **Install dependencies**:
-
+3. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
-4. **Run the application**:
-   - Launch the Streamlit app by running:
-     ```bash
-     streamlit run Home.py
-     ```
-   - Open the URL displayed in the terminal (default: `http://localhost:8501`).
+If you prefer not to use `conda`, ensure Python is installed and skip to Step 3.
+
+### Step 3: Running the Application
+
+1. Ensure the environment is activated (if using `conda`):
+
+   ```bash
+   conda activate gaia_env
+   ```
+
+2. Run the Streamlit application using the `home.py` file:
+   ```bash
+   streamlit run Home.py
+   ```
 
 ---
 
