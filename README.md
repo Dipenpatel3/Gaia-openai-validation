@@ -106,8 +106,8 @@ Before running the application, ensure the following are installed:
 1. **Clone this repository**:
 
    ```bash
-   git clone https://github.com/your-username/GAIA-OPENAI-VALIDATION.git
-   cd GAIA-OPENAI-VALIDATION
+    git clone https://github.com/Dipenpatel3/Gaia-openai-validation.git
+    cd Gaia-openai-validation
    ```
 
 2. **Set up the environment**:
