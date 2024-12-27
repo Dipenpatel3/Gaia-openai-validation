@@ -115,6 +115,8 @@ git clone https://github.com/Dipenpatel3/Gaia-openai-validation.git
 cd Gaia-openai-validation
 ```
 
+If you prefer not to use `conda`, ensure Python is installed and skip to Step 3.
+
 ### Step 2: Create a Conda Environment (Optional)
 
 1. Create a `conda` environment:
@@ -133,8 +135,6 @@ cd Gaia-openai-validation
    ```bash
    pip install -r requirements.txt
    ```
-
-If you prefer not to use `conda`, ensure Python is installed and skip to Step 3.
 
 ### Step 3: Running the Application
 
