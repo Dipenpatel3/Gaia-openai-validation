@@ -121,11 +121,6 @@ If you prefer not to use `conda`, ensure Python is installed and skip to Step 3.
    conda activate gaia_env
    ```
 
-3. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
 ### Step 3: Running the Application
 
 1. Ensure the environment is activated (if using `conda`):
@@ -134,7 +129,13 @@ If you prefer not to use `conda`, ensure Python is installed and skip to Step 3.
    conda activate gaia_env
    ```
 
-2. Run the Streamlit application using the `home.py` file:
+2. Install the required dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Run the Streamlit application using the `home.py` file:
    ```bash
    streamlit run Home.py
    ```
